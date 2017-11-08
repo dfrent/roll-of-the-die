@@ -16,6 +16,7 @@ possible_total = 0
 sum = (dice1 + dice2)
 possible_total += 1
   puts "dice roll:#{dice1}, #{dice2} total:#{sum} "
-  puts "there are #{} possible permutations"
+
 end
 end
+puts "there are #{possible_total} possible permutations"
